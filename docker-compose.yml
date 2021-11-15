@@ -10,3 +10,5 @@ services:
     environment:
       # Goモジュールのサポートを有効にする
       GO111MODULE: "on"
+      # タグを渡す
+      GOFLAGS: "-tags=test"
