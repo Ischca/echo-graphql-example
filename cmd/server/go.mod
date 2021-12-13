@@ -2,7 +2,11 @@ module app/cmd/server
 
 go 1.17
 
-require github.com/labstack/echo/v4 v4.6.1
+require (
+	github.com/graphql-go/graphql v0.8.0
+	github.com/graphql-go/handler v0.2.3
+	github.com/labstack/echo/v4 v4.6.1
+)
 
 require (
 	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
